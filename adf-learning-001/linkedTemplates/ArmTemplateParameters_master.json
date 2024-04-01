@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "adf-learning-001"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"tbAdvenDB_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
