@@ -1,0 +1,35 @@
+{
+	"name": "pl_1_ds_departtable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "tbAdvenDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "department",
+				"type": "varchar"
+			},
+			{
+				"name": "xyz",
+				"type": "varchar"
+			},
+			{
+				"name": "cost",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DepartmentNew"
+		}
+	}
+}
